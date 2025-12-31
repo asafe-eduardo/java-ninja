@@ -1,0 +1,90 @@
+
+JAVA — OPERADORES E EXPRESSÕES (REFERÊNCIA COMPLETA)
+
+1) Operadores Aritméticos
++  Soma
+-  Subtração
+*  Multiplicação
+/  Divisão
+%  Módulo (resto)
+
+2) Operadores Unários
++  Valor positivo
+-  Valor negativo
+++ Incremento
+-- Decremento
+!  Negação lógica
+~  Complemento de bits
+
+3) Operadores de Atribuição
+=   Atribuição simples
++=  Soma e atribui
+-=  Subtrai e atribui
+*=  Multiplica e atribui
+/=  Divide e atribui
+%=  Módulo e atribui
+&= |= ^= Operações bitwise com atribuição
+<<= >>= >>>= Shift com atribuição
+
+4) Operadores Relacionais
+== Igual a
+!= Diferente de
+<  Menor que
+>  Maior que
+<= Menor ou igual
+>= Maior ou igual
+
+5) Operadores Lógicos
+&& AND com short-circuit
+|| OR com short-circuit
+!  NOT lógico
+&  AND lógico (sem short-circuit)
+|  OR lógico (sem short-circuit)
+^  XOR lógico
+
+6) Operadores Bitwise
+&   AND
+|   OR
+^   XOR
+~   NOT
+<<  Shift left
+>>  Shift right com sinal
+>>> Shift right sem sinal
+
+7) Operador Ternário
+condicao ? valorSeTrue : valorSeFalse
+
+8) Operadores de Tipo
+instanceof  Verificação de tipo
+new         Criação de objeto
+(tipo)      Cast
+
+9) Operadores de Acesso
+.   Acesso a membros
+[]  Acesso a arrays
+()  Chamada de método
+
+10) Operadores com String
++   Concatenação
++=  Concatenação acumulada
+
+11) Ordem de precedência (o Java avalia primeiro os operadores de cima para baixo)
+1  ()
+2  ++ -- ! ~
+3  * / %
+4  + -
+5  << >> >>>
+6  < > <= >= instanceof
+7  == !=
+8  &
+9  ^
+10 |
+11 &&
+12 ||
+13 ?:
+14 = += -= *= /=
+
+Observações:
+- Use equals() para comparar objetos.
+- Use parênteses para clareza.
+- Evite concatenação de String em loops (use StringBuilder).

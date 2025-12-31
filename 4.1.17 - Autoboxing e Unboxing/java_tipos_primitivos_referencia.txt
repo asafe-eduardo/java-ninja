@@ -1,0 +1,62 @@
+JAVA — TIPOS PRIMITIVOS (REFERÊNCIA COMPLETA)
+
+1) byte
+- Tamanho: 8 bits (1 byte)
+- Range: -128 a 127
+- Valor padrão: 0
+- Representação: complemento de dois
+- Wrapper: Byte
+
+2) short
+- Tamanho: 16 bits (2 bytes)
+- Range: -32.768 a 32.767
+- Valor padrão: 0
+- Representação: complemento de dois
+- Wrapper: Short
+
+3) int
+- Tamanho: 32 bits (4 bytes)
+- Range: -2.147.483.648 a 2.147.483.647
+- Valor padrão: 0
+- Representação: complemento de dois
+- Wrapper: Integer
+
+4) long
+- Tamanho: 64 bits (8 bytes)
+- Range: -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
+- Valor padrão: 0L
+- Representação: complemento de dois
+- Wrapper: Long
+
+5) float
+- Tamanho: 32 bits (4 bytes)
+- Precisão: ~6–7 dígitos decimais
+- Range aproximado: ±1.4E−45 a 3.4E+38
+- Valor padrão: 0.0f
+- Representação: IEEE 754 (single precision)
+- Wrapper: Float
+
+6) double
+- Tamanho: 64 bits (8 bytes)
+- Precisão: ~15–16 dígitos decimais
+- Range aproximado: ±4.9E−324 a 1.8E+308
+- Valor padrão: 0.0d
+- Representação: IEEE 754 (double precision)
+- Wrapper: Double
+
+7) char
+- Tamanho: 16 bits (2 bytes)
+- Range: 0 a 65.535
+- Valor padrão: '\u0000'
+- Representação: Unicode UTF-16
+- Wrapper: Character
+
+8) boolean
+- Tamanho: dependente da JVM
+- Valores possíveis: true | false
+- Valor padrão: false
+- Representação: JVM-dependent
+- Wrapper: Boolean
+
+Observações gerais:
+- Tipos primitivos armazenam valor real.
